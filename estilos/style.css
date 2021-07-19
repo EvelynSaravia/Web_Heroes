@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+    font-family: Roboto;
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+/* header */
+
+.descuentos{
+    position: absolute;
+    width: 100%;
+    height: 23px;
+    left: 0px;
+    top: 0px;
+    background-color: #1CD1B0;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+.header_logo {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    height: 90px;
+    background-color: #00669F;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+.tienda {
+    display: flex;
+    left: 10px;
+    top: 40px;
+}
+.logo {
+    display: flex;
+    width: 80px;
+    height: 60px;
+    margin: 30px 0px;
+}
+
+/* main login */
+.login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 25rem;
+    gap: 20px;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+label{
+    align-self: flex-start;
+    font-size: 40px;
+    color: #333333;
+}
+
+input{
+    width: 350px;
+    height: 35px;
+}
+select { 
+    width: 350px;
+    height: 35px;
+}
+
+.button_entrar{
+    text-decoration: none;
+    background-color:#1CD1B0 ;
+    border-radius: 23px;
+    color: black;
+    width: 350px;
+    height: 35px;
+    text-align: center;
+    padding: 8px;
+}
+
+button{
+    border-radius: 23px;
+    color: black;
+    width: 150px;
+    height: 35px;
+    font-weight: 500;
+    margin: 0px 10px;
+}
+
+.boton_reset{
+    background-color: #888888;
+    border: #888888;
+    color: #FFFFFF;
+}
+
+.boton_submit{
+    background-color: #1CD1B0;
+    border: #1CD1B0;
+    color: black;
+}
+
+/* home */
+
+section nav{
+    background-color: #001D2D;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+    gap: 20px;
+    padding-right: 30px;
+    color: white;
+    height: 35px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+.hero-card{
+    width: 100%;
+    max-height: 600px;
+    max-width: 300px;
+    margin: 20px 20px;
+    background-color: #F3F3F3;
+    float: left;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8%;
+}
+.hero-header{
+    position: relative;
+    max-height: 193px;
+}
+.hero-header .heart{
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+
+.hero-header .picture{
+    position: absolute;
+    border-radius: 50%;
+    bottom: -25%;
+    left:30%;
+}
+
+.hero-body{
+    max-height: 300px;
+    margin-top: 20%;
+    padding: 30px;
+}
+
+.btn{
+    margin: 0 auto;
+    background: #00669F;
+    width: 128px;
+    padding: 10px;
+    color: #F3F3F3;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    cursor: pointer;
+}
+
+.boton_mas{
+    position: fixed;
+    text-align: center;
+    background-color: #00669F;
+    border-radius: 100%;
+    color: white;
+    font-weight: 400;
+    font-size: 30px;
+    right: 20px;
+    top: 50%;
+    width: 45px;
+    height: 45px;
+    padding: 3.5px;
+}
+/* footer */
+footer{
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    background-color: #00669F;
+    font-family: Roboto;
+    font-size: 15px;
+    line-height: 35px;
+    text-align: center;
+    color: #FFFFFF;
+}
